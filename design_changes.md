@@ -11,6 +11,12 @@ This is an incomplete list of what we're considering for Model 01 design changes
 - [ ] rethink angle & placement of interconnect jacks
 - [ ] resculpt key cutout to match new keycap outline
 
+
+## Metal plates
+- [ ] Research materials options for keyplate and bottom plate
+- [ ] reshape bottom plate to make alternate enclosure designs easier
+- [ ] correct keyswitch cutout sizes
+
 ## Keycap shapes
 
 - [ ] test out convex thumb keys (may help with chording thumb keys if designed correctly)
@@ -57,9 +63,9 @@ This is an incomplete list of what we're considering for Model 01 design changes
 
 # Software
 
- - [] Rewrite from scratch. (Existing firmware was all proof of concept)
- 
- 
+ - [ ] Rewrite from scratch. No, seriously
+       (Existing firmware was all proof of concept)
+
 # Key layout 
 - [ ] Lengthen escape/butterfly to make them easier to hit with the thumbs and to remove wooden finger
 - [ ] tighten thumb arc
