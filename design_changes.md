@@ -85,6 +85,8 @@ RFC 2119.
 
 * We MAY want to switch to a steel bottom plate or a different thickness of aluminum bottom plate
 
+* We MUST correct the design of the keystems to seat into Matias ALPS switches comfortably and securely without being so tight that we can crack keyswitches. The correct answer may be a nice gentle draft angle.
+
 * We MUST increase the draft angle on the keycaps to add space between keytops. This should reduce typographical errors and make it easier for users to get acclimated to the keyboard.
 
 * We MAY reshape the thumb keys, making them convex, rather than concave. This will make it more comfortable to strike the new, rnarrower thumb keys. Additionally, we MAY sculpt the thumb keys to make it comfortable to chord a pair of adjacent thumb keys.
