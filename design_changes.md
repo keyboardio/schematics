@@ -120,4 +120,8 @@ RFC 2119.
 
 * We SHOULD devise a new scheme for PCB-to-keyplate mounting. The current scheme using PEM standoffs and screws can damage PCBs if screws overtightened. Retaining clips may be an option. A bent-metal key plate that acts as its own standoff and assembly locating system is another.
 
+
+* We SHOULD upgrade the fuse on the USB connection to allow power draw of maybe 2 amps of power. The LEDs can draw a bunch more, but there's a limit to what's sane.
+
+
 * We MUST rewrite our software and firmware from scratch. No, seriously The existing firmware was all proof of concept.
