@@ -104,6 +104,9 @@ RFC 2119.
 * We SHOULD investigate how to improve the seating of the aluminum plate on the wooden enclosure. The brass screw bosses are somewhat prone to misalignment as the wood of the keyboard naturally changes shape due to airborne moisture content. Additionally, as the wood can deform slightly, it can make the aluminum plate slightly non-planar, which throws off the current attachment mechanism.
 
 
+* We SHOULD modify the cutout on the underside of the enclosure to ease milling. This means replacing right angle cuts on the interior with large radius curves and reducing fine detail on the interior where possible. 
+
+
 = Software changes
 
 * We MUST rewrite our software and firmware from scratch. No, seriously The existing firmware was all proof of concept.
