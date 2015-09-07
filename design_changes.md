@@ -39,14 +39,15 @@ RFC 2119.
 
 
 
-= Internal mechanical
+# Internal mechanical
 
 * We SHOULD devise a new scheme for PCB-to-keyplate mounting. The current scheme using PEM standoffs and screws can damage PCBs if screws overtightened. Retaining clips may be an option. A bent-metal key plate that acts as its own standoff and assembly locating system is another.
 
 * We MUST use correctly sized cutouts for the Matias ALPS keyswitches. The Kickstarter design had slightly oversized holes, which led to switches being wobbly or flexing during keycap replacement
 
 * The key plate MUST be 1.1mm +/- 0.1 mm thick to properly anchor the keyswitches. Right now, the specs say the wrong thing.
-= Electronics changes
+
+# Electronics changes
 
 * We MUST change to PCB-mount RJ12 jacks. The cost of hand-assembled friction-fit or panel-mount RJ12 jacks is just insanely high. We'll need to consider available orientations and the height of the jacks inside the enclosure. Right now, we use a sideways mounted jack. A correctly mounted jack may be taller (and may not be). Because of the stresses on the jacks, they MUST be through-hole mounted and include additional retaining clips.
 
@@ -72,7 +73,7 @@ RFC 2119.
 
 * We SHOULD optimize our PCB geometry for mass production.
 
-= Enclosure changes
+# Enclosure changes
 
 * We MUST reshape the keycap outline to mitigate a wood thickness issue: PgUp and - are the widest points of the key outline. They're also the narrowest points on the enclosure. 
 
@@ -107,11 +108,11 @@ RFC 2119.
 * We SHOULD modify the cutout on the underside of the enclosure to ease milling. This means replacing right angle cuts on the interior with large radius curves and reducing fine detail on the interior where possible. 
 
 
-= Software changes
+# Software changes
 
 * We MUST rewrite our software and firmware from scratch. No, seriously The existing firmware was all proof of concept.
 
-= Adjustability changes
+# Adjustability changes
 
 * We MUST design feet for the keyboard.
 
@@ -127,7 +128,7 @@ RFC 2119.
 
 * All specifications and parts for the keyboard MUST be metric. Nothing should be specified in inches, feet, pounds, or ounces. The Kickstarter prototypes used a mix of metric and imperial screws.
 
-= Keycap changes
+# Keycap changes
 
 * We MUST correct the design of the keystems to seat into Matias ALPS switches comfortably and securely without being so tight that we can crack keyswitches. The correct answer may be a nice gentle draft angle. (keycaps)
 
