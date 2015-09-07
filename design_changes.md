@@ -50,7 +50,7 @@ RFC 2119.
 
 * We SHOULD upgrade the fuse on the USB connection to allow power draw of maybe 2 amps of power. The LEDs can draw a bunch more, but there's a limit to what's sane.
 
-* We SHOULD switch to IO Expanders with key scanning engines that support both down-stroke and up-stroke events. The ISSI product we're investigating looks like it should fit the bill. The new IO Expander SHOULD operate on a 5V voltage supply.
+* We SHOULD switch to ISSI 31IO7326 IO Expanders with key scanning engines that support both down-stroke and up-stroke events.  The new IO Expander SHOULD operate on a 5V voltage supply.
 
 * We SHOULD switch from RS2812B LEDs to APA102C LEDs. They're easier to drive and look nicer. (Issue: using a PCB-mount LED means that if a fault is detected after keyswitches are soldered on, rework is incredibly difficult.)
 
@@ -60,9 +60,21 @@ RFC 2119.
 
 * We MUST combine the keyswitches and LEDs for each hand onto a single PCB.
 
+* We MUST remove the 3v support circuitry on the boards once we no longer need it
+
+* We SHOULD add a hardware interlock to give the boards a "can't be flashed over USB" mode for our more security-conscious users.
+
+* We MUST reevaluate the USB support circuitry (right now U1 prevents the ATMega from dropping the USB connection to flip from application code to bootloader or vice-versa. On the prototype run, we had to cut pin 1.)
+
+* We SHOULD look at what we might do to make the board more robust in the face of hobbyists doing dumb things.
+
+* We SHOULD swap out 0402 components for larger components to make test and repair easier
+
 ## PCB Layout
 
 * The USB connector SHOULD move to a position closer to the 'outside' of the left half of the keyboard. Right now, it comes out at a funny angle, which only works well with right-angle USB cables and is inconvenient from a cable management perspective.
+
+* We SHOULD add test points and pins for hobbyists to have their way with the boards. 
 
 
 * We MUST change the angle and position of the interconnect RJ12 jacks. They're very difficult to connect as currently located. 
