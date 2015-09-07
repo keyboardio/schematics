@@ -18,10 +18,6 @@ RFC 2119.
 
 
 
-* The USB connector SHOULD move to a position closer to the 'outside' of the left half of the keyboard. Right now, it comes out at a funny angle, which only works well with right-angle USB cables and is inconvenient from a cable management perspective.
-
-
-* We MUST change the angle and position of the interconnect RJ12 jacks. They're very difficult to connect as currently located. 
 
 
 
@@ -49,23 +45,33 @@ RFC 2119.
 
 # Electronics changes
 
-* We MUST change to PCB-mount RJ12 jacks. The cost of hand-assembled friction-fit or panel-mount RJ12 jacks is just insanely high. We'll need to consider available orientations and the height of the jacks inside the enclosure. Right now, we use a sideways mounted jack. A correctly mounted jack may be taller (and may not be). Because of the stresses on the jacks, they MUST be through-hole mounted and include additional retaining clips.
 
-* We MUST move the palm key switches out from the thumb arcs by approximately 2cm to more correctly position them underneath the fleshy parts of typists thumbs. 
-
-* We SHOULD make the placement angle of the palm keyswitch on the PCB exactly half way between the angles of cmd/del or alt/space.
+## Electrical Design
 
 * We SHOULD upgrade the fuse on the USB connection to allow power draw of maybe 2 amps of power. The LEDs can draw a bunch more, but there's a limit to what's sane.
 
 * We SHOULD switch to IO Expanders with key scanning engines that support both down-stroke and up-stroke events. The ISSI product we're investigating looks like it should fit the bill. The new IO Expander SHOULD operate on a 5V voltage supply.
 
-* We SHOULD switch from RS2812B LEDs to APA102C LEDs. They're easier to drive and look nicer.
+* We SHOULD switch from RS2812B LEDs to APA102C LEDs. They're easier to drive and look nicer. (Issue: using a PCB-mount LED means that if a fault is detected after keyswitches are soldered on, rework is incredibly difficult.)
 
-* We MAY switch from MicroUSB connectors on the keyboard to new USB-C connectors. (Current issues include cost, sourcing and what, if any, electrical changes would be required)
+* We SHOULD switch from MicroUSB connectors on the keyboard to new USB-C connectors. (Current issues include cost, sourcing and what, if any, electrical changes would be required)
 
 * If we don't switch to USB-C connectors, we SHOULD switch to MicroUSB connectors with through-hole electrical connections, in addition to the through-hole mechanical connections of the current design. (The only issue is that we're unsure they exist)
 
 * We MUST combine the keyswitches and LEDs for each hand onto a single PCB.
+
+## PCB Layout
+
+* The USB connector SHOULD move to a position closer to the 'outside' of the left half of the keyboard. Right now, it comes out at a funny angle, which only works well with right-angle USB cables and is inconvenient from a cable management perspective.
+
+
+* We MUST change the angle and position of the interconnect RJ12 jacks. They're very difficult to connect as currently located. 
+
+* We MUST change to PCB-mount RJ12 jacks. The cost of hand-assembled friction-fit or panel-mount RJ12 jacks is just insanely high. We'll need to consider available orientations and the height of the jacks inside the enclosure. Right now, we use a sideways mounted jack. A correctly mounted jack may be taller (and may not be). Because of the stresses on the jacks, they MUST be through-hole mounted and include additional retaining clips.
+
+* We MUST move the palm key switches out from the thumb arcs by approximately 2cm to more correctly position them underneath the fleshy parts of typists thumbs. 
+
+* We SHOULD make the placement angle of the palm keyswitch on the PCB exactly half way between the angles of cmd/del or alt/space.
 
 * We SHOULD the microcontroller and support circuitry to the underside of the PCB. Because of the plate that fixes the keyswitches in position on top of the PCB, it's very difficult to access or repair any of the electronics on the Kickstarter model. Downside: this could result in the support circuitry being exposed to damage if the keyboard is disassembled and could increase the height of the PCB stackup by 1-2mm. 
 
@@ -76,7 +82,6 @@ RFC 2119.
 # Enclosure changes
 
 * We MUST reshape the keycap outline to mitigate a wood thickness issue: PgUp and - are the widest points of the key outline. They're also the narrowest points on the enclosure. 
-
 
 * We MUST reshape the key outline to mitigate a wood thickness issue: The space between Esc/Butterfly and their respective thumb clusters are small, relatively fragile tongues of wood. We should grow the escape and butterfly keys to eliminate the tonuges and make it easier to hit those two keys with the thumbs.  Will impact keycap outline.
 
