@@ -181,3 +181,5 @@ RFC 2119.
 * We SHOULD relocate the centers of the esc and butterfly key switches and keycaps based on their new positions when they're resculpted as outlined above
 
 * We SHOULD investigate moving the tab/ret key switches and keycaps, as well as rec/any to be more reachable as we make the changes to esc/butterfly above
+
+* We MAY relocate the keys currently labeled for pgdn and - to outside the keys currently labeled pgup and ' 
