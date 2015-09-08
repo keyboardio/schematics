@@ -99,7 +99,7 @@ RFC 2119.
 
 * We MUST alter the cutouts on the inside of the enclosure to have much more rounded angles. the sharp right angles and small cutouts significantly increase milling time and cost.
 
-* We SHOULD increase the enclosure thickness around the edges by 2mm - this was requested by a CNC vendor
+* We SHOULD increase the enclosure thickness around the edges by 2mm - this was requested by a CNC vendor. We SHOULD do this by shrinking the size of the bottom plate and the enclosure cutout, rather than by increasing the size of the enclosure
 
 * We MAY resculpt the butterfly of the enclosure for aesthetic (and practical) purposes. The current design lacks a geometric symmetry that might be desirable. Also, a slight reshaping may help improve the physical strength of the material. May impact keycap outline.
 
