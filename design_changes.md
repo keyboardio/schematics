@@ -54,15 +54,7 @@ RFC 2119.
 
 * We SHOULD switch from RS2812B LEDs to APA102C LEDs. They're easier to drive and look nicer. (Issue: using a PCB-mount LED means that if a fault is detected after keyswitches are soldered on, rework is incredibly difficult.)
 
-<<<<<<< HEAD
 * We SHOULD switch from MicroUSB connectors on the keyboard to new USB-C connectors. (Current issues include cost, sourcing and what, if any, electrical changes would be required)
-=======
-* The LEDs on the right hand MUST NOT flicker and should be as close as possible to the brightness of the left hand. The current right-hand LEDs have some really unfortunate flicker and are a little dimmer than the left hand. Do we just need more copper between the two hands or can we fix it with some strategically placed capacitors.
-
-* We MAY switch from MicroUSB connectors on the keyboard to new USB-C connectors. (Current issues include cost, sourcing and what, if any, electrical changes would be required)
->>>>>>> Add note about LED flicker.
-
-* If we don't switch to USB-C connectors, we SHOULD switch to MicroUSB connectors with through-hole electrical connections, in addition to the through-hole mechanical connections of the current design. (The only issue is that we're unsure they exist)
 
 * We MUST combine the keyswitches and LEDs for each hand onto a single PCB.
 
