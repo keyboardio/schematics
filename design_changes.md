@@ -141,6 +141,8 @@ RFC 2119.
 
 * The feet MUST have a non-skid, non-marking coating on any surface where they might touch a surface the keyboard is placed on
 
+* Users SHOULD be able to place the keyboard on top of a macbook's keyboard and use it.
+
 * All specifications and parts for the keyboard MUST be metric. Nothing should be specified in inches, feet, pounds, or ounces. The Kickstarter prototypes used a mix of metric and imperial screws.
 
 # Keycap changes
