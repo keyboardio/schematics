@@ -43,7 +43,7 @@ RFC 2119.
 
 * The key plate MUST be 1.1mm +/- 0.1 mm thick to properly anchor the keyswitches. Right now, the specs say the wrong thing.
 
-= Electronics changes
+# Electronics changes
 
 
 ## Electrical Design
