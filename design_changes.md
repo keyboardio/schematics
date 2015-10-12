@@ -54,15 +54,15 @@ RFC 2119.
 
 - [ ] The new IO Expander SHOULD operate on a 5V voltage supply.
 
-~~* We SHOULD switch to ISSI 31IO7326 IO Expanders with key scanning engines that support both down-stroke and up-stroke events.~~
+~~- [ ] We SHOULD switch to ISSI 31IO7326 IO Expanders with key scanning engines that support both down-stroke and up-stroke events.~~
 
 - [ ] We SHOULD switch from RS2812B LEDs to APA102C LEDs. They're easier to drive and look nicer. (Issue: using a PCB-mount LED means that if a fault is detected after keyswitches are soldered on, rework is incredibly difficult.)
 
-- [ ] We SHOULD switch from MicroUSB connectors on the keyboard to new USB-C connectors. (Current issues include cost, sourcing and what, if any, electrical changes would be required)
+- [x] We SHOULD switch from MicroUSB connectors on the keyboard to new USB-C connectors. (Current issues include cost, sourcing and what, if any, electrical changes would be required)
 
-- [ ] We MUST combine the keyswitches and LEDs for each hand onto a single PCB.
+- [x] We MUST combine the keyswitches and LEDs for each hand onto a single PCB.
 
-- [ ] We MUST remove the 3v support circuitry on the boards once we no longer need it
+- [x] We MUST remove the 3v support circuitry on the boards once we no longer need it
 
 - [ ] We SHOULD add a hardware interlock to give the boards a "can't be flashed over USB" mode for our more security-conscious users.
 
@@ -70,7 +70,7 @@ RFC 2119.
 
 - [ ] We SHOULD look at what we might do to make the board more robust in the face of hobbyists doing dumb things.
 
-- [ ] We SHOULD swap out 0402 components for larger components to make test and repair easier
+- [x] We SHOULD swap out 0402 components for larger components to make test and repair easier
 
 - [ ] We MUST have sufficient interconnect wires to control both LEDs and key matrix.
     * TODO: see if we can drive the APA102C LEDs with the i2c clock 
@@ -88,7 +88,7 @@ RFC 2119.
 
 - [ ] We MUST change to PCB-mount interconnect jacks. The cost of hand-assembled friction-fit or panel-mount jacks is just insanely high. We'll need to consider available orientations and the height of the jacks inside the enclosure. Right now, we use a sideways mounted jack. A correctly mounted jack may be taller (and may not be). Because of the stresses on the jacks, they MUST include additional retaining clips.
 
-- [ ] We MUST move the palm key switches out from the thumb arcs by approximately 2cm to more correctly position them underneath the fleshy parts of typists thumbs. 
+- [x] We MUST move the palm key switches out from the thumb arcs by approximately 2cm to more correctly position them underneath the fleshy parts of typists thumbs. 
 
 - [ ] We SHOULD make the placement angle of the palm keyswitch on the PCB exactly half way between the angles of cmd/del or alt/space.
 
@@ -177,7 +177,7 @@ RFC 2119.
 
 - [ ] We MAY resculpt the outer corners of the Ctrl keycaps to remove the tongues of wood, as describe above for esc/butterfly
 
-- [ ] We MUST compress the four-key thumb keycap arcs toward the centers of the arcs to make them easier for typists with limited ranges of thumb motion to strike them.
+- [x] We MUST compress the four-key thumb keycap arcs toward the centers of the arcs to make them easier for typists with limited ranges of thumb motion to strike them.
 
 - [ ] We SHOULD resculpt the esc and butterfly keycaps to take advantage of the additional space available to them from the change to the outline above.
 
@@ -185,4 +185,4 @@ RFC 2119.
 
 - [ ] We SHOULD investigate moving the tab/ret key switches and keycaps, as well as rec/any to be more reachable as we make the changes to esc/butterfly above
 
-- [ ] We MAY relocate the keys currently labeled for pgdn and - to outside the keys currently labeled pgup and ' 
+- ~~[ ] We MAY relocate the keys currently labeled for pgdn and - to outside the keys currently labeled pgup and '~~
