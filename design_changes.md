@@ -14,6 +14,9 @@ RFC 2119.
 
 # Mechanical
 
+## Specification and design
+
+- [ ] All specifications and parts for the keyboard MUST be metric. Nothing should be specified in inches, feet, pounds, or ounces. The Kickstarter prototypes used a mix of metric and imperial screws.
 
 ## Bottom plate
 
@@ -75,7 +78,6 @@ RFC 2119.
 
 - [ ] Users SHOULD be able to place the keyboard on top of a macbook's keyboard and use it.
 
-- [ ] All specifications and parts for the keyboard MUST be metric. Nothing should be specified in inches, feet, pounds, or ounces. The Kickstarter prototypes used a mix of metric and imperial screws.
 
 ## Interconnect mechanism
 
