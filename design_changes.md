@@ -50,7 +50,11 @@ RFC 2119.
 
 * We SHOULD upgrade the fuse on the USB connection to allow power draw of maybe 2 amps of power. The LEDs can draw a bunch more, but there's a limit to what's sane.
 
-* We MUST switch to a new IO Expander/keyscanner. The semtech and issi parts don't actually support keyboard-class matrix scanning. 
+* We MUST switch to a new IO Expander with a key matrix scanning engine, since the SX1509 used in the Kickstarter prototypes doesn't support key-up events.
+
+* The new IO Expander SHOULD operate on a 5V voltage supply.
+
+~~* We SHOULD switch to ISSI 31IO7326 IO Expanders with key scanning engines that support both down-stroke and up-stroke events.~~
 
 * We SHOULD switch from RS2812B LEDs to APA102C LEDs. They're easier to drive and look nicer. (Issue: using a PCB-mount LED means that if a fault is detected after keyswitches are soldered on, rework is incredibly difficult.)
 
