@@ -111,11 +111,7 @@ RFC 2119.
 
 - [ ] We MAY resculpt the butterfly of the enclosure for aesthetic (and practical) purposes. The current design lacks a geometric symmetry that might be desirable. Also, a slight reshaping may help improve the physical strength of the material. May impact keycap outline.
 
-
-
-
 - [ ] We SHOULD make the cutout for the palm key on the wooden enclosure back-to-front symmetrical so that users could reverse the sculpted keycap to change the placement of the 'bump' on the keycap to better fit their hand sizes (keycaps)
-
 
 - [ ] We SHOULD investigate whether we can use a more aggressive fillet on the edge of the enclosure. It'd feel nice under the palms for folks with larger hands (without requring more expensive 3D milling)
 
@@ -166,7 +162,6 @@ RFC 2119.
 - [ ] Additionally, we MAY sculpt the thumb keycaps to make it comfortable to chord a pair of adjacent thumb keys.
 
 - [ ] We MUST resculpt the swoop on 10qp to be no more severe than on other keys. (keycaps)
-
 
 - [ ] We SHOULD increase the negative tilt on the  zxcvbm,./- row to remove the 'cliff' when pulling back fingers to hit them (keycaps)
 
