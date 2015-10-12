@@ -82,7 +82,7 @@ RFC 2119.
 
 * We MAY have to switch from RJ12 to RJ45 if we need a 7th pin.
 
-* We MUST change to PCB-mount RJ12 jacks. The cost of hand-assembled friction-fit or panel-mount RJ12 jacks is just insanely high. We'll need to consider available orientations and the height of the jacks inside the enclosure. Right now, we use a sideways mounted jack. A correctly mounted jack may be taller (and may not be). Because of the stresses on the jacks, they MUST be through-hole mounted and include additional retaining clips.
+* We MUST change to PCB-mount interconnect jacks. The cost of hand-assembled friction-fit or panel-mount jacks is just insanely high. We'll need to consider available orientations and the height of the jacks inside the enclosure. Right now, we use a sideways mounted jack. A correctly mounted jack may be taller (and may not be). Because of the stresses on the jacks, they MUST include additional retaining clips.
 
 * We MUST move the palm key switches out from the thumb arcs by approximately 2cm to more correctly position them underneath the fleshy parts of typists thumbs. 
 
