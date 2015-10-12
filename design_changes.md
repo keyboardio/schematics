@@ -77,8 +77,9 @@ RFC 2119.
 
 * We SHOULD add test points and pins for hobbyists to have their way with the boards. This includes adding headers (populated or not) for the Arduino pins.
 
+* We MUST change the angle and position of the interconnect (currently RJ12) jacks. They're very difficult to connect as currently located. 
+    * TODO: specify angle and position of the jacks once new enclosure shape is decided
 
-* We MUST change the angle and position of the interconnect RJ12 jacks. They're very difficult to connect as currently located. 
 
 * We MUST change to PCB-mount RJ12 jacks. The cost of hand-assembled friction-fit or panel-mount RJ12 jacks is just insanely high. We'll need to consider available orientations and the height of the jacks inside the enclosure. Right now, we use a sideways mounted jack. A correctly mounted jack may be taller (and may not be). Because of the stresses on the jacks, they MUST be through-hole mounted and include additional retaining clips.
 
