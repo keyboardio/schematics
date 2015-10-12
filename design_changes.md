@@ -75,11 +75,12 @@ RFC 2119.
 - [ ] We MUST have sufficient interconnect wires to control both LEDs and key matrix.
     * TODO: see if we can drive the APA102C LEDs with the i2c clock 
 
+- [ ] We SHOULD add test points and pins for hobbyists to have their way with the boards. This includes adding headers (populated or not) for the Arduino pins.
+
 ## PCB Layout
 
 - [ ] The USB connector SHOULD move to a position closer to the 'outside' of the left half of the keyboard. Right now, it comes out at a funny angle, which only works well with right-angle USB cables and is inconvenient from a cable management perspective.
 
-- [ ] We SHOULD add test points and pins for hobbyists to have their way with the boards. This includes adding headers (populated or not) for the Arduino pins.
 
 - [ ] We MUST change the angle and position of the interconnect (currently RJ12) jacks. They're very difficult to connect as currently located. 
     * TODO: specify angle and position of the jacks once new enclosure shape is decided
