@@ -32,7 +32,6 @@ RFC 2119.
 
 - [ ] The key plate MUST be 1.1mm +/- 0.1 mm thick to properly anchor the keyswitches. Right now, the specs say the wrong thing.
 
-
 # Enclosure changes
 
 - [ ] We MUST reshape the keycap outline to mitigate a wood thickness issue: PgUp and - are the widest points of the key outline. They're also the narrowest points on the enclosure. 
@@ -44,8 +43,6 @@ RFC 2119.
 - [ ] We SHOULD increase the enclosure thickness around the edges by 2mm - this was requested by a CNC vendor. We SHOULD do this by shrinking the size of the bottom plate and the enclosure cutout, rather than by increasing the size of the enclosure
 
 - [ ] We MAY resculpt the butterfly of the enclosure for aesthetic (and practical) purposes. The current design lacks a geometric symmetry that might be desirable. Also, a slight reshaping may help improve the physical strength of the material. May impact keycap outline.
-
-- [ ] We SHOULD make the cutout for the palm key on the wooden enclosure back-to-front symmetrical so that users could reverse the sculpted keycap to change the placement of the 'bump' on the keycap to better fit their hand sizes (keycaps)
 
 - [ ] We SHOULD investigate whether we can use a more aggressive fillet on the edge of the enclosure. It'd feel nice under the palms for folks with larger hands (without requring more expensive 3D milling)
 
@@ -102,6 +99,8 @@ RFC 2119.
 - [ ] We MUST correct the design of the keystems to seat into Matias ALPS switches comfortably and securely without being so tight that we can crack keyswitches. The correct answer may be a nice gentle draft angle. (keycaps)
 
 - [x] We MUST increase the draft angle on the keycaps to add space between keytops. This should reduce typographical errors and make it easier for users to get acclimated to the keyboard. (keycaps)
+
+- [ ] We SHOULD make the palm key on the wooden enclosure back-to-front symmetrical so that users could reverse the sculpted keycap to change the placement of the 'bump' on the keycap to better fit their hand sizes (keycaps)
 
 - [ ] We MAY reshape the thumb keycaps, making them convex, rather than concave. This will make it more comfortable to strike the new, rnarrower thumb keys. 
 
