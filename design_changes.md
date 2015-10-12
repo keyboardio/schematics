@@ -49,7 +49,7 @@ RFC 2119.
 
 - [ ] We SHOULD investigate whether we can use a more aggressive fillet on the edge of the enclosure. It'd feel nice under the palms for folks with larger hands (without requring more expensive 3D milling)
 
-- [ ] We SHOULD investigate whether using wood that's slightly thicker (and raises the palms slightly higher relative to the keyswitches) will result in simpler milling due to it being a standard thickness) or whether it will result in increased user comfort.
+~~- [ ] We SHOULD investigate whether using wood that's slightly thicker (and raises the palms slightly higher relative to the keyswitches) will result in simpler milling due to it being a standard thickness) or whether it will result in increased user comfort.~~ Any wood we're getting will be planed to our specifications.
 
 - [ ] The enclosure design SHOULD be optimized to require as little CNC milling time as possible. When optimizing the design, user comfort is more important than robustness, but robustness is more important than aesthetics. Aesthetics are (for the most part) more important than cost or milling time. (If the design isn't comfortable, it's not worth using. After that, it's important that the keyboard be built to last and that it look nice. While cost is a factor, we're optimizing for quality and looks over cost.)
 
@@ -81,16 +81,27 @@ RFC 2119.
 
 ## Interconnect mechanism
 
-- [ ] We MUST replace the interhand connection mechanism. The current interhand connectors are hard to align with the keyboard. The current interhand connectors require very tight tolerances to fit snugly without fitting too snugly. Because the wood can sligntly warp the metal plates (and because the PEM hardware is seated on the plates, not integral with it), the connector bars are sometimes too tight and sometimes too loose. The replacement solution SHOULD be able to be aligned by the user without looking or flipping the keyboard upside down. The replacement solution should not easily slide apart when the keyboard is picked up with one hand by the user. The replacment solution SHOULD be designed to make it as easy as possible for a hobbyist to create replacement center bars at other tent angles or separation distances at home. The replacement solution SHOULD have some sort of locking mechanism, such as retaining pins + magnet or spring-mounted bearing. If we end up with a rail-based solution, something compatible with a standard T-Slot system SHOULD be used to enable hobbyists to do clever things (http://go.rockler.com/tech/RTD10000592AA.pdf is an example of something like this.) The slotted side of the rail would be built into the center-bar. The Sliding cross-section (what would be the T-bolt) would be the rail attached to the bottom of the enclosure. Kurt Mottweiler has suggested that if we keep the current key-hole design, we move to a ramped cutout inside the keyholes for a better fit and that we might consider a positioning-pin + neomagnet system as an alternative.  If we stick with a keyhole-based system, the keyholes for the two sides of the keyboard should be cut in opposite (back-to-front) directions so the user can push the two halves together to connect them or pull them apart. The current design requires pulling both halves of the keyboard relative to the keyplate, which is difficult to do.
+- [ ] We MUST replace the interhand connection mechanism. The current interhand connectors are hard to align with the keyboard. The current interhand connectors require very tight tolerances to fit snugly without fitting too snugly. Because the wood can sligntly warp the metal plates (and because the PEM hardware is seated on the plates, not integral with it), the connector bars are sometimes too tight and sometimes too loose. 
+- [ ] The replacement solution SHOULD be able to be aligned by the user without looking or flipping the keyboard upside down. 
+- [ ] The replacement solution should not easily slide apart when the keyboard is picked up with one hand by the user.
+- [ ] The replacment solution SHOULD be designed to make it as easy as possible for a hobbyist to create replacement center bars at other tent angles or separation distances at home. 
+- [ ] The replacement solution SHOULD have some sort of locking mechanism, such as retaining pins + magnet or spring-mounted bearing. 
+- [ ] If we end up with a rail-based solution:
+  - [ ] something compatible with a standard T-Slot system SHOULD be used to enable hobbyists to do clever things (http://go.rockler.com/tech/RTD10000592AA.pdf is an example of something like this.) The slotted side of the rail would be built into the center-bar. The Sliding cross-section (what would be the T-bolt) would be the rail attached to the bottom of the enclosure. 
+    
+- If we keep the current key-hole design
+  - [ ] We SHOULD move to a ramped cutout inside the keyholes for a better fit and that we might consider a positioning-pin + neomagnet system as an alternative.  
+  - [ ] The keyholes for the two sides of the keyboard SHOULD be cut in opposite (back-to-front) directions so the user can push the two halves together to connect them or pull them apart. The current design requires pulling both halves of the keyboard relative to the keyplate, which is difficult to do.
 
 - [ ] To the extent possible, the center-bars SHOULD NOT mar the underside of the keyboard. The current center-bars slide along a large area of the surface of the keyboard when attached and have a tendency to scrape the underside of the keyboard. If our design makes this unavoidable, we SHOULD consider the colors and finishes of the bottom plate of the keyboard and the center bars to minimize the visual impact.
 
 - [ ] The center-bars we ship SHOULD have some sort of coating, edging or bumper so that they don't clatter when dropped. The current center bars make a very loud noise when they fall from a table or slip out of a user's hands.
+
 # Keycap changes
 
 - [ ] We MUST correct the design of the keystems to seat into Matias ALPS switches comfortably and securely without being so tight that we can crack keyswitches. The correct answer may be a nice gentle draft angle. (keycaps)
 
-- [ ] We MUST increase the draft angle on the keycaps to add space between keytops. This should reduce typographical errors and make it easier for users to get acclimated to the keyboard. (keycaps)
+- [x] We MUST increase the draft angle on the keycaps to add space between keytops. This should reduce typographical errors and make it easier for users to get acclimated to the keyboard. (keycaps)
 
 - [ ] We MAY reshape the thumb keycaps, making them convex, rather than concave. This will make it more comfortable to strike the new, rnarrower thumb keys. 
 
@@ -104,7 +115,7 @@ RFC 2119.
 
 - [ ] We MAY move the pinkie columns up approximately 4mm to decrease the keyboard's learning curve. This has the downside of making 0 and 1 even harder to reach. (impacts keycaps, key switch placement)
 
-- [ ] We MAY decrease the back-to-front keyspacing by 1-2mm to make the number-key row significantly easier to reach. (impacts keycaps, key switch placement)
+- [x] We MAY decrease the back-to-front keyspacing by 1-2mm to make the number-key row significantly easier to reach. (impacts keycaps, key switch placement)
 
 - [ ] We MAY resculpt the outer corners of the Ctrl keycaps to remove the tongues of wood, as describe above for esc/butterfly
 
@@ -114,7 +125,7 @@ RFC 2119.
 
 - [ ] We SHOULD relocate the centers of the esc and butterfly key switches and keycaps based on their new positions when they're resculpted as outlined above
 
-- [ ] We SHOULD investigate moving the tab/ret key switches and keycaps, as well as rec/any to be more reachable as we make the changes to esc/butterfly above
+- [x] We SHOULD investigate moving the tab/ret key switches and keycaps, as well as rec/any to be more reachable as we make the changes to esc/butterfly above
 
 - ~~[ ] We MAY relocate the keys currently labeled for pgdn and - to outside the keys currently labeled pgup and '~~
 
