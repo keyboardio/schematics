@@ -68,6 +68,9 @@ RFC 2119.
 
 * We SHOULD swap out 0402 components for larger components to make test and repair easier
 
+* We MUST have sufficient interconnect wires to control both LEDs and key matrix.
+    * TODO: see if we can drive the APA102C LEDs with the i2c clock 
+
 ## PCB Layout
 
 * The USB connector SHOULD move to a position closer to the 'outside' of the left half of the keyboard. Right now, it comes out at a funny angle, which only works well with right-angle USB cables and is inconvenient from a cable management perspective.
