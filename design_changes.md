@@ -157,7 +157,11 @@ RFC 2119.
 - [x] We SHOULD swap out 0402 components for larger components to make test and repair easier
 
 - [ ] We MUST have sufficient interconnect wires to control both LEDs and key matrix.
-    * TODO: see if we can drive the APA102C LEDs with the i2c clock 
+    * ~~TODO: see if we can drive the APA102C LEDs with the i2c clock~~ Spoiler: we can't
+
+- [ ] We MUST switch from RJ12 to RJ45 jacks, as the minimal set of interconnect pins we need is: SCL, SDA, Right key event interrupt, +5V, GND, LED Clock, LED Data.
+
+- [ ] The 8th pin on the RJ45 connector MUST be assigned. It should probably be RESET for the right hand IO coprocessor.
 
 - [ ] We SHOULD add test points and pins for hobbyists to have their way with the boards. This includes adding headers (populated or not) for the Arduino pins.
 
@@ -169,7 +173,6 @@ RFC 2119.
 - [ ] We MUST change the angle and position of the interconnect (currently RJ12) jacks. They're very difficult to connect as currently located. 
     * TODO: specify angle and position of the jacks once new enclosure shape is decided
 
-- [ ] We MAY have to switch from RJ12 to RJ45 if we need a 7th pin.
 
 - [ ] We MUST change to PCB-mount interconnect jacks. The cost of hand-assembled friction-fit or panel-mount jacks is just insanely high. We'll need to consider available orientations and the height of the jacks inside the enclosure. Right now, we use a sideways mounted jack. A correctly mounted jack may be taller (and may not be). Because of the stresses on the jacks, they MUST include additional retaining clips.
 
