@@ -104,7 +104,7 @@ RFC 2119.
 
 - [ ] We MAY reshape the thumb keycaps, making them convex, rather than concave. This will make it more comfortable to strike the new, rnarrower thumb keys. 
 
-- [ ] Additionally, we MAY sculpt the thumb keycaps to make it comfortable to chord a pair of adjacent thumb keys.
+- [ ] We MAY sculpt the thumb keycaps to make it comfortable to chord a pair of adjacent thumb keys.
 
 - [ ] We MUST resculpt the swoop on 10qp to be no more severe than on other keys. (keycaps)
 
