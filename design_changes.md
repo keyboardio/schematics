@@ -34,7 +34,7 @@ RFC 2119.
 
 # Enclosure changes
 
-- [ ] We MUST reshape the keycap outline to mitigate a wood thickness issue: PgUp and - are the widest points of the key outline. They're also the narrowest points on the enclosure. 
+- [ ] We MUST reshape the keycap outline to mitigate a wood thickness issue: PgDn and - are the widest points of the key outline. They're also the narrowest points on the enclosure. 
 
 - [ ] We MUST reshape the key outline to mitigate a wood thickness issue: The space between Esc/Butterfly and their respective thumb clusters are small, relatively fragile tongues of wood. We should grow the escape and butterfly keys to eliminate the tonuges and make it easier to hit those two keys with the thumbs.  Will impact keycap outline.
 
