@@ -22,7 +22,7 @@ RFC 2119.
 
 ~- [ ] We MAY switch the shape of the bottom plate to more exactly match the shape of the keyplate. This change has reprecussions for how we seat the feet on the enclsoure, how we mount the center bar on the enclosure and on how we mill out the enclosure. It also appears to be in direct contradiction to the possible design change which would make the bottom plate larger than the enclosure shape.
 
-- [ ] We MAY want to switch to a steel bottom plate or a different thickness of aluminum bottom plate
+~- [ ] We MAY want to switch to a steel bottom plate or a different thickness of aluminum bottom plate
 
 ## Keyplate
 
@@ -38,13 +38,13 @@ RFC 2119.
 
 - [x] We MUST reshape the key outline to mitigate a wood thickness issue: The space between Esc/Butterfly and their respective thumb clusters are small, relatively fragile tongues of wood. We should grow the escape and butterfly keys to eliminate the tonuges and make it easier to hit those two keys with the thumbs.  Will impact keycap outline.
 
-- [ ] We MUST alter the cutouts on the inside of the enclosure to have much more rounded angles. the sharp right angles and small cutouts significantly increase milling time and cost.
+- [x] We MUST alter the cutouts on the inside of the enclosure to have much more rounded angles. the sharp right angles and small cutouts significantly increase milling time and cost.
 
 - [x] We SHOULD increase the enclosure thickness around the edges by 2mm - this was requested by a CNC vendor. We SHOULD do this by shrinking the size of the bottom plate and the enclosure cutout, rather than by increasing the size of the enclosure
 
 - [x] We MAY resculpt the butterfly of the enclosure for aesthetic (and practical) purposes. The current design lacks a geometric symmetry that might be desirable. Also, a slight reshaping may help improve the physical strength of the material. May impact keycap outline.
 
-- [ ] We SHOULD investigate whether we can use a more aggressive fillet on the edge of the enclosure. It'd feel nice under the palms for folks with larger hands (without requring more expensive 3D milling)
+- [x] We SHOULD investigate whether we can use a more aggressive fillet on the edge of the enclosure. It'd feel nice under the palms for folks with larger hands (without requring more expensive 3D milling)
 
 ~~- [ ] We SHOULD investigate whether using wood that's slightly thicker (and raises the palms slightly higher relative to the keyswitches) will result in simpler milling due to it being a standard thickness) or whether it will result in increased user comfort.~~ Any wood we're getting will be planed to our specifications.
 
@@ -52,11 +52,13 @@ RFC 2119.
 
 - [ ] The enclosure MUST be redesigned to anticipate drops and other stresses on the wood. The current screw cutouts on the inside of the wooden enclosure appear to have been a factor in a drop test failure. The wood flexed and it looks like a pan-head screw slammed into the wood as it flexed, contributing to the enclosure cracking. Possible solutions include thickening all the thinner parts of the side walls of the wood and changing the direction of the wood grain used. Another possible solution is extending the bottom plate of the keyboard to run 1/8" past the edge of the wood enclosure, acting as a bumper. We'd need to switch to a rounded edge on the metal bottom plate so it's not sharp. Right now the metal plate is entirely hidden by a wooden lip on the enclosure. Switching to a larger metal plate would also eliminate a relatively fine detail of the wood enclosure, which, we belive, is especially prone to chipping and cracking.
 
-- [ ] The cutout for the USB connector MUST be thickened, It is currently the thinnest part of the keyboard wall and has been especially prone to cracking. 
+~- [ ] The cutout for the USB connector MUST be thickened, It is currently the thinnest part of the keyboard wall and has been especially prone to cracking. 
 
-- [ ] We SHOULD investigate how to improve the seating of the aluminum plate on the wooden enclosure. The brass screw bosses are somewhat prone to misalignment as the wood of the keyboard naturally changes shape due to airborne moisture content. Additionally, as the wood can deform slightly, it can make the aluminum plate slightly non-planar, which throws off the current attachment mechanism.
+~- [ ] We SHOULD investigate how to improve the seating of the aluminum plate on the wooden enclosure. The brass screw bosses are somewhat prone to misalignment as the wood of the keyboard naturally changes shape due to airborne moisture content. Additionally, as the wood can deform slightly, it can make the aluminum plate slightly non-planar, which throws off the current attachment mechanism.
 
-- [ ] We SHOULD modify the cutout on the underside of the enclosure to ease milling. This means replacing right angle cuts on the interior with large radius curves and reducing fine detail on the interior where possible. 
+- [ ] Bottom plate screw mountings should allow a looser tolerance when aligning wooden enclosure to bottom plate
+
+- [x] We SHOULD modify the cutout on the underside of the enclosure to ease milling. This means replacing right angle cuts on the interior with large radius curves and reducing fine detail on the interior where possible. 
 
 
 ## Feet
@@ -73,18 +75,18 @@ RFC 2119.
 
 - [ ] The feet MUST have a non-skid, non-marking coating on any surface where they might touch a surface the keyboard is placed on
 
-- [ ] Users SHOULD be able to place the keyboard on top of a macbook's keyboard and use it.
+~- [ ] Users SHOULD be able to place the keyboard on top of a macbook's keyboard and use it.
 
 
 ## Interconnect mechanism
 
-- [ ] We MUST replace the interhand connection mechanism. The current interhand connectors are hard to align with the keyboard. The current interhand connectors require very tight tolerances to fit snugly without fitting too snugly. Because the wood can sligntly warp the metal plates (and because the PEM hardware is seated on the plates, not integral with it), the connector bars are sometimes too tight and sometimes too loose. 
+- [x] We MUST replace the interhand connection mechanism. The current interhand connectors are hard to align with the keyboard. The current interhand connectors require very tight tolerances to fit snugly without fitting too snugly. Because the wood can sligntly warp the metal plates (and because the PEM hardware is seated on the plates, not integral with it), the connector bars are sometimes too tight and sometimes too loose. 
 - [ ] The replacement solution SHOULD be able to be aligned by the user without looking or flipping the keyboard upside down. 
 - [ ] The replacement solution should not easily slide apart when the keyboard is picked up with one hand by the user.
 - [ ] The replacment solution SHOULD be designed to make it as easy as possible for a hobbyist to create replacement center bars at other tent angles or separation distances at home. 
 - [ ] The replacement solution SHOULD have some sort of locking mechanism, such as retaining pins + magnet or spring-mounted bearing. 
-- [ ] If we end up with a rail-based solution:
-  - [ ] something compatible with a standard T-Slot system SHOULD be used to enable hobbyists to do clever things (http://go.rockler.com/tech/RTD10000592AA.pdf is an example of something like this.) The slotted side of the rail would be built into the center-bar. The Sliding cross-section (what would be the T-bolt) would be the rail attached to the bottom of the enclosure. 
+~- [ ] If we end up with a rail-based solution:
+~  - [ ] something compatible with a standard T-Slot system SHOULD be used to enable hobbyists to do clever things (http://go.rockler.com/tech/RTD10000592AA.pdf is an example of something like this.) The slotted side of the rail would be built into the center-bar. The Sliding cross-section (what would be the T-bolt) would be the rail attached to the bottom of the enclosure. 
     
 ~- If we keep the current key-hole design
 ~  - [ ] We SHOULD move to a ramped cutout inside the keyholes for a better fit and that we might consider a positioning-pin + neomagnet system as an alternative.  
@@ -96,7 +98,7 @@ RFC 2119.
 
 # Keycap changes
 
-- [ ] We MUST correct the design of the keystems to seat into Matias ALPS switches comfortably and securely without being so tight that we can crack keyswitches. The correct answer may be a nice gentle draft angle. (keycaps)
+- [x] We MUST correct the design of the keystems to seat into Matias ALPS switches comfortably and securely without being so tight that we can crack keyswitches. The correct answer may be a nice gentle draft angle. (keycaps)
 
 - [x] We MUST increase the draft angle on the keycaps to add space between keytops. This should reduce typographical errors and make it easier for users to get acclimated to the keyboard. (keycaps)
 
@@ -110,9 +112,9 @@ RFC 2119.
 
 - [x] We SHOULD increase the negative tilt on the  zxcvbm,./- row to remove the 'cliff' when pulling back fingers to hit them (keycaps)
 
-- [ ] We MAY move 5tgb and 6yhn down approximately 4mm to make them easier to reach. As the typist's index fingers arc out from home row, those two columns are just slightly harder to reach than the home-row columns adjacent to them. (keycaps)
+~- [ ] We MAY move 5tgb and 6yhn down approximately 4mm to make them easier to reach. As the typist's index fingers arc out from home row, those two columns are just slightly harder to reach than the home-row columns adjacent to them. (keycaps)
 
-- [ ] We MAY move the pinkie columns up approximately 4mm to decrease the keyboard's learning curve. This has the downside of making 0 and 1 even harder to reach. (impacts keycaps, key switch placement)
+~- [ ] We MAY move the pinkie columns up approximately 4mm to decrease the keyboard's learning curve. This has the downside of making 0 and 1 even harder to reach. (impacts keycaps, key switch placement)
 
 - [x] We MAY decrease the back-to-front keyspacing by 1mm to make the number-key row significantly easier to reach. (impacts keycaps, key switch placement)
 
@@ -122,7 +124,7 @@ RFC 2119.
 
 - [x] We SHOULD resculpt the esc and butterfly keycaps to take advantage of the additional space available to them from the change to the outline above.
 
-- [ ] We SHOULD relocate the centers of the esc and butterfly key switches and keycaps based on their new positions when they're resculpted as outlined above
+~- [ ] We SHOULD relocate the centers of the esc and butterfly key switches and keycaps based on their new positions when they're resculpted as outlined above
 
 - [x] We SHOULD investigate moving the tab/ret key switches and keycaps, as well as rec/any to be more reachable as we make the changes to esc/butterfly above
 
@@ -170,8 +172,7 @@ RFC 2119.
 - [x] The USB connector SHOULD move to a position closer to the 'outside' of the left half of the keyboard. Right now, it comes out at a funny angle, which only works well with right-angle USB cables and is inconvenient from a cable management perspective.
 
 
-- [ ] We MUST change the angle and position of the interconnect (currently RJ12) jacks. They're very difficult to connect as currently located. 
-    * TODO: specify angle and position of the jacks once new enclosure shape is decided
+- [x] We MUST change the angle and position of the interconnect (currently RJ12) jacks. They're very difficult to connect as currently located. 
 
 
 - [x] We MUST change to PCB-mount interconnect jacks. The cost of hand-assembled friction-fit or panel-mount jacks is just insanely high. We'll need to consider available orientations and the height of the jacks inside the enclosure. Right now, we use a sideways mounted jack. A correctly mounted jack may be taller (and may not be). Because of the stresses on the jacks, they MUST include additional retaining clips.
@@ -180,7 +181,7 @@ RFC 2119.
 
 - [x] We SHOULD make the placement angle of the palm keyswitch on the PCB exactly half way between the angles of cmd/del or alt/space.
 
-- [ ] We SHOULD the microcontroller and support circuitry to the underside of the PCB. Because of the plate that fixes the keyswitches in position on top of the PCB, it's very difficult to access or repair any of the electronics on the Kickstarter model. Downside: this could result in the support circuitry being exposed to damage if the keyboard is disassembled and could increase the height of the PCB stackup by 1-2mm. 
+~- [ ] We SHOULD the microcontroller and support circuitry to the underside of the PCB. Because of the plate that fixes the keyswitches in position on top of the PCB, it's very difficult to access or repair any of the electronics on the Kickstarter model. Downside: this could result in the support circuitry being exposed to damage if the keyboard is disassembled and could increase the height of the PCB stackup by 1-2mm. 
 
 - [x] We SHOULD place the LEDs off-center from the centers of the keyswitches. Right now, the LED shines into the middle of the spring/slider core, dimming the LEDs considerably.
 
